@@ -2567,7 +2567,7 @@ input, select, textarea {
 		background: slategray;
 		display: grid;
 		height: 100%;
-		grid-template-columns: repeat(17, 1fr);
+		grid-template-columns: repeat(18, 1fr);
 		/* grid-template-rows: repeat(auto, 400); */
 		gap: 5px;
 
@@ -2589,19 +2589,20 @@ input, select, textarea {
 			/* height: 100%; */
 			/* flex: 1 1 0%; */
 			/* margin: 10px */
+			grid-column: span 6;
 			
 		}
 
 		.block.regular{
 
 			
-			grid-column: span 6;
+			
 
 		}
 
 		.block.tall{
 
-			grid-column: span 5;
+			/* grid-column: span 5; */
 			grid-row: span 2;
 
 		}
@@ -2784,7 +2785,7 @@ input, select, textarea {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;				
-				grid-template-columns: repeat(11, 1fr);
+				grid-template-columns: repeat(12, 1fr);
 			}
 
 				.tiles article {
