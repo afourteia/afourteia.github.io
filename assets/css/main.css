@@ -2344,7 +2344,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 			width: 100%;
 		}
 
@@ -2561,52 +2561,49 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+/* section */
+.inner {
+	justify-self: center;
+	justify-content: center;
+}		
+
 /* Tiles */
 
 	.tiles {
-		background: slategray;
-		display: grid;
-		height: 100%;
-		grid-template-columns: repeat(18, 1fr);
-		/* grid-template-rows: repeat(auto, 400); */
-		gap: 5px;
+		/* background: slategray; */
+		/* display: grid; */
+		/* height: 100%; */
+		justify-self: center;
+		column-count: 3;
+		/* width: 50%; */
+		height: 80em;
+		justify-content: center;
+		align-items: center;
+		/* grid-template-columns: repeat(3, 1fr); */
+		/* grid-template-rows: repeat(13, 115px); */ 
+		gap: 1em;
 
 		
 	}
 
 		.tiles > .block {
-			background: darkgoldenrod;
-			box-sizing: border-box;
-			display: flex;
+			/* background: darkgoldenrod; */
+			/* box-sizing: border-box; */
+			/* display: flex; */
 			justify-content: center;
-			align-items: center;
+			align-items: top;
 			/* padding: 20px; */
-			border: 1px solid red;
+			/* border: 1px solid red; */
 			box-sizing: border-box;
 			width: 100%;
 			
 			/* min-height: 10rem; */
 			/* height: 100%; */
 			/* flex: 1 1 0%; */
-			/* margin: 10px */
-			grid-column: span 6;
+			margin: 0 0 0.5em 0;
+			/* grid-column: span 6; */
 			
 		}
-
-		.block.regular{
-
-			
-			
-
-		}
-
-		.block.tall{
-
-			/* grid-column: span 5; */
-			grid-row: span 2;
-
-		}
-
 		
 
 		.tiles article {
@@ -2615,8 +2612,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			/* width: calc(33.33333% - 2.5em); */
-			/* margin: 2.5em 0 0 2.5em; */
+			width: calc(33.33333% - 2.5em);
+			margin: 2.5em 0 0 2.5em;
 		}
 
 			.tiles article > .image {
@@ -2769,10 +2766,10 @@ input, select, textarea {
 		}
 
 		body.is-preload .tiles article {
-			-moz-transform: scale(0.9);
-			-webkit-transform: scale(0.9);
-			-ms-transform: scale(0.9);
-			transform: scale(0.9);
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
 			opacity: 0;
 		}
 
@@ -2785,7 +2782,8 @@ input, select, textarea {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;				
-				grid-template-columns: repeat(12, 1fr);
+				/* grid-template-columns: repeat(12, 1fr); */
+				height: auto;
 			}
 
 				.tiles article {
@@ -2798,12 +2796,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.tiles {
-				margin: -2.5em 0 0 -2.5em;
-				grid-template-columns: repeat(6, 1fr);
-			}
-
-			.block.tall{
-				grid-column: span 6;
+				margin: -2.5em 0 0 -2.5em;				
 			}
 
 				.tiles article {
@@ -2817,7 +2810,7 @@ input, select, textarea {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
-				grid-template-columns: repeat(5, 1fr);
+				column-count: 1;
 			}
 
 				.tiles article {
