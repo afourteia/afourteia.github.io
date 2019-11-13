@@ -3428,7 +3428,7 @@ input, select, textarea {
 	align-items: center;
 	text-align: center;
 	/* grid-template-columns: repeat(2, auto);		 */
-	padding: 40px 0px 0px 0px;
+	padding: 60px 0px 0px 0px;
 
 }
 
@@ -3549,6 +3549,8 @@ input, select, textarea {
 
 
 .Title {
+	margin: 0px;
+	padding: 0px;
 	display: flex;
 	flex-wrap: wrap;
 
