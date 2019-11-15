@@ -3578,19 +3578,25 @@ input, select, textarea {
 	/* border: solid 4px rgba(195, 13, 13, 0.726); */
 }
 
-.Title > .item{
-	flex-basis: 50%;
-	text-align: center;
-}
+	.Title > .item{
+		flex-basis: 50%;
+		text-align: center;
+	}
 
 
-.Title section{
-	justify-content: right;
-	justify-self: right;
-	align-self: right;	
-}
+	.Title section{
+		justify-content: right;
+		justify-self: right;
+		align-self: right;	
+	}
 
 
 .whiteBackground {
 		background-color: rgb(238, 235, 235);
 	}
+
+#resume a{
+	font-size: 1.5rem;
+	font-style: bold;
+	font-weight: 900;
+}
