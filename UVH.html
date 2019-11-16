@@ -25,8 +25,8 @@
         <!-- Logo -->
         <a href="index.html#projects" class="logo">
           <span class="symbol"></span><span class="title">Go Back</span>
-        </a>   
-        
+        </a>
+
         <!-- Nav -->
         <nav>
           <ul>
@@ -53,53 +53,31 @@
     <div id="main" class="whiteBackground">
       <div class="inner">
         <h1>Hybrid Vehicle Supervisory Controller</h1>
-        <h3>About the project</h3>
+        <h3>The challenge</h3>
         <p>
-          The UVic Hybrid Team is a group of engineering students that design and build hybrid vehicles. A model of the vehicle is
-          shown in below Figure 2. The focus of the team is to research and implement powertrain technologies in a hybrid setting.
-          The current powertrain architecture on the vehicle is a parallel hybrid design implementing a 250cc motorcycle engine
-          from <a href="https://www.ktm.com/ca-en/">KTM</a> and a brushed DC electric motor. A diagram of the implemented architecture is shown below in Figure 3.
+          Shown below is the hybrid vehicle a student team developed at the university of Victoria. The previous
+          controller used for the car the MicroAutobox II from DSpace. My contribution was to redesign the control
+          system and develop new hardware based on the Texas Instrument C2000 MCU.
         </p>
-        <figure>
-          <!-- <img src="pic_trulli.jpg" alt="Trulli" style="width:100%"> -->
-          <span class="image main"><img src="images/UVH.jpg" alt="" /></span>
-          <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-        </figure>
+        <div class="embed-container">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/videoseries?start=15&autoplay=1&loop=1&mute=1;list=PL1ZR7lMOxczpYLLPmdXXHvEXL7i_vn9k2"
+            frameborder='0' allowfullscreen> </iframe>
+        </div>
 
-        <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>
+        <div class="break"></div>
 
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
-        </iframe>
+        <p>
+          On top of introducing a new hardware, I have added new features in the control systems which are listed below.
+          Here is a playlist shows a walkthrough of the new controller
+        </p>
 
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
-        </iframe>
-        
-        <iframe src="https://www.youtube.com/embed/uNRGWVJ10gQ?rel=0&amp;autoplay=1&mute=1" width="560" height="315"
-          frameborder="0" allowfullscreen></iframe>
-
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XvdfwiaOOfw?controls=0autoplay=1" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XvdfwiaOOfw?controls=0&autoplay=1&loop=1&mute=1"
-          ></iframe>
-
-        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis
-          dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet.
-          Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada
-          et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget
-          turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti
-          sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh
-          porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-          Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in
-          aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-          turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis
-          mauris vehicula hendrerit.</p>
-        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-          mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris,
-          consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque
-          enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+        <p>
+          In addition to the control system, I performned diagnostic analysis on the car to improve the performance.
+          Through root-cause analysis, I was able to unravel issues in the many of the subsystems in the car. The gallary below shows example of some of the analysis I have done
+        </p>
+        <p>For more information, please have a look at the report below. <a href="pdf/UVH.pdf">PDF link</a></p>
+        <iframe src="pdf/UVH.pdf" width="100%" height="800px"></iframe>
       </div>
     </div>
 
