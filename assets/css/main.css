@@ -3573,6 +3573,7 @@ input, select, textarea {
 
 	#aboutme > .element > p{
 		font-size: 1rem;
+		font-weight: 600;
 	}
 }
 
